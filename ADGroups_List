@@ -47,4 +47,5 @@ foreach ($ADGroup in $ADGroups) {
 } 
  
 #// Export to CSV files  
-$CSVOutput | Sort-Object Name | Export-Csv -Path C:\Scripts\ADUserGroup.out
+$CSVOutput | Sort-Object Name | Export-Csv -Path C:\Scripts\ADGroups.csv
+$CSVOutput | Format-Table -Autosize
