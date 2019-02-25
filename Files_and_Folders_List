@@ -1,0 +1,2 @@
+$Path = "\\student-a-01\Materials"
+Tree /a $Path /F | Select-Object -Skip 2 | Set-Content C:\Scripts\Matl_Folder.csv
